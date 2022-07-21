@@ -1,0 +1,12 @@
+{
+  "name": "hanapi-srv",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Hana Cloud Table API",
+  "dependencies": {
+    "@sap/hdbext": "7.5.0",
+    "@sap/xsenv": "3.1.1",
+    "@sap/hana-client": "2.13.21",
+    "express": "4.17.2"
+  }
+}

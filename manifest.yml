@@ -1,0 +1,17 @@
+# Generated manifest.yml based on template version 0.1.0 
+# appName = hanapi
+# language=nodejs
+# multitenancy=false
+---
+applications:
+# -----------------------------------------------------------------------------------
+# Backend Service
+# -----------------------------------------------------------------------------------
+- name: hanapi-srv
+  memory: 64M
+  path: app
+  buildpack: nodejs_buildpack
+  command: node server.js
+  routes:
+  - route: https://p001-comau-dev.cfapps.eu10.hana.ondemand.com
+  
